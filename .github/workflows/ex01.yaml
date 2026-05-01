@@ -22,3 +22,4 @@ jobs:
         - second_job
     steps:
       - run: console.log("Hey, this is the third job written in javascript")
+        shell: node
